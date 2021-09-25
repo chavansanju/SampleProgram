@@ -24,7 +24,7 @@ public class Insert
 		ps.setFloat(3, f);
 		int result=ps.executeUpdate();
 		if(result==1)
-		 System.out.println("Inserted");
+		 System.out.println("Record Inserted");
 		else
 			System.out.println("try again");
 		}
